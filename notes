@@ -1,0 +1,17 @@
+# virtual env
+
+python3 -m venv venv
+
+# activate vir env
+
+source ./venv/bin/activate
+
+# install fast api
+
+pip install fastapi[all]
+
+# run server
+
+uvicorn main:app --reload
+
+# read HTTP methods
